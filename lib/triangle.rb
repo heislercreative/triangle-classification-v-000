@@ -18,7 +18,7 @@ class Triangle
   end
   
   def valid_triangle?
-    a + b > c || a + c > b || b + c > a
+    a + b > c && a + c > b && b + c > a
   end
   
 end
