@@ -18,7 +18,7 @@ class Triangle
   end
   
   def is_triangle?
-    valid_triangle = 
+    valid_triangle = [(a + b > c), (a + c > b), ]
   end
   
 end
